@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  background-image: url("../assets/images/city.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 150vh;
+  text-align: center;
+}
+
+
+#title{
+  color: #fd7300;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+#orange-btn{
+  border: 2px solid #fd7300;
+  color:#fd7300;
+}
