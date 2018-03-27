@@ -3,23 +3,69 @@ body{
   padding: 0;
 }
 
-section{
+.container{
   background-image: url("../assets/images/city.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   height: 150vh;
   text-align: center;
+  margin: 0;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 2% 0;
 }
 
+input:focus {
+  outline: none;
+}
 
-#title{
+section {
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #ffffffd9;
+    padding: 1%;
+}
+
+.title{
   color: #fd7300;
   font-family: 'Raleway', sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 #orange-btn{
   border: 2px solid #fd7300;
   color:#fd7300;
+}
+
+#w-forecast {
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #ffffffd9;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: left;
+    color: #5a5959;
+    display: none;
+}
+
+#w-input {
+  margin: 5% !important;
+}
+
+.forecast-label {
+  background-color: #fd73012e;
+  border-radius: 2%;
+  width: 60%;
+  margin-left: 20%;
+  padding: 1%;
+}
+
+#reset-btn {
+  border: 2px solid #fd7300;
+  color:#fd7300;
+  margin: 0 43%;
 }
